@@ -1,0 +1,19 @@
+.con {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 9999px;
+  border: 2px solid gray;
+  padding: 3px 3px 3px 3px;
+}
