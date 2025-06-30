@@ -1,0 +1,17 @@
+.container {
+  width: 50vw;
+  height: 50vh;
+  border: 3px solid red;
+
+  display: flex;
+  flex-direction: row;
+  /* main축 */
+  justify-content: end;
+  /* cross축 */
+  align-items: end;
+}
+.box {
+  width: 10%;
+  height: 10%;
+  border: 2px solid black;
+}

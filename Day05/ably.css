@@ -1,0 +1,28 @@
+.con {
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.iconbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 30px 40px 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
