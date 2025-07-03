@@ -1,0 +1,11 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  transition: all 0.5s;
+}
+.box:hover {
+  /* transform: rotate(45deg); 45도 돌아감*/
+  /* transform: scale(3); 3배 커짐*/
+  /* transform: translate(100px, 100px); x,y축 이동 */
+}
