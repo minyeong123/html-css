@@ -1,0 +1,33 @@
+header {
+  padding: 20px 0px;
+  border-bottom: 1px solid #dfdddd;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.box > button {
+  border: none;
+  padding: 14px 16px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-weight: bold;
+}
+.box > button:hover {
+  background-color: #dfdddd;
+}
+.pink {
+  color: red;
+}
