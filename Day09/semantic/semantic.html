@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../../../../reset.css" />
     <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="first.css" />
+    <link rel="stylesheet" href="second.css" />
+    <link rel="stylesheet" href="third.css">
+    <link rel="stylesheet" href="aside.css">
   </head>
   <body>
     <header>
@@ -13,19 +17,54 @@
         <div class="logo">
           <img src="https://ably.team/images/Logo.svg" alt="" />
         </div>
-        <div class="box">
-          <button class="pink">에이블리</button>
-          <button>팀문화</button>
-          <button>소식</button>
-          <button>채용공고</button>
-          <button>FAQ</button>
-        </div>
+        <ul class="links">
+          <li class="pink">에이블리</li>
+          <li>팀문화</li>
+          <li>소식</li>
+          <li>채용공고</li>
+          <li>FAQ</li>
+        </ul>
       </nav>
     </header>
+    <aside>
+      <button>채용공고 보러가기</button>
+    </aside>
     <main>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="first">
+        <div class="contents">
+          <h2>당신의 넥스트커미스는 <br />무엇 인가요?</h2>
+        </div>
+      </section>
+      <section class="second">
+        <div class="contents">
+          <h4>
+          누구나 쉽게 <br />
+          나만의 스타일을 판매하고 구매하는 <br />
+          셀러와 유저가 상생하는 스타일 생태계
+        </h4>
+        <h4 class="motto">바로 ABLY가 그리는 <span>NEXT COMMERCE</span> 입니다<h4>
+        </div>
+      </section>
+      <section class="third">
+         <div class="contents">
+        <h6>미션</h6>
+        <h4>스타일 커미스와 체인 플랫폼을 <br> 글로벌로 확장합니다</h4>
+        <div class="container">
+          <div class="card firstimg">
+              <span>스마일 커머스</span>
+            <div>다양한 취향을 발견할 수있는 <br>커머스 플랫폼</div>
+            <button>자세히보기</button>
+            <div class="cellophane"></div>
+          </div>
+          <div class="card secondimg">
+             <span>스마일 커머스</span>
+            <div>다양한 취향을 발견할 수있는 <br>커머스 플랫폼</div>
+            <button>자세히보기</button>
+            <div class="cellophane"></div>
+          </div>
+          </div>
+          </div>
+      </section>
     </main>
     <footer></footer>
   </body>
