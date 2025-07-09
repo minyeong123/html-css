@@ -1,0 +1,53 @@
+header {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+nav > .logo > span {
+  font-size: 25px;
+}
+nav > .container {
+  display: flex;
+  flex-direction: row;
+}
+nav > .logo1 {
+  display: flex;
+  align-items: center;
+}
+nav > .container > .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  padding: 10px 20px;
+}
+header > .contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header > .contents > .box {
+  padding: 0px 20px;
+}
+header > .contents > .box > span {
+  font-size: 25px;
+  padding: 0px 100px;
+}
+
+header > .contents > .links {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+header > .contents > .links > li {
+  font-size: 25px;
+}
