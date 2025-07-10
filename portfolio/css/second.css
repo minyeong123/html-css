@@ -1,0 +1,109 @@
+.second{
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.second > .contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.second > .contents > .con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.second > .contents > .con > h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.second > .contents > .con > span {
+    font-size: 32px;
+    color: gray;
+}
+.second > .contents > button {
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.second > .container{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+.second > .container > .box > .card{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 0px 20px;
+}
+.second > .container > .box > .card > span{
+    color: white;
+    font-size: 50px;
+
+}
+.second > .container > .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.second > .container > .box > h2{
+    font-size:  20px;
+    font-weight: bold;
+}
+.second > .container > .box > .imgbox {
+    display: flex;
+    align-items: center;
+     font-size: 14px;
+     gap: 30px;
+     padding: 0px 15px;
+}
+.second > .container > .box > .imgbox > .aa {
+    display: flex;
+    align-items: center;
+}
+.second > .container > .box > .imgbox > .aa > img{
+    width: 20px;
+    height: 20px;
+}
+.second > .container > .box > .card:hover{
+   transform: scale(1.1);
+   background-color: transparent
+}
+
+
+.second > .container > .box > .imga{
+ background-image: url("../images/imga.jpg");
+ background-size: cover;
+}
+.second > .container > .box > .imgb{
+ background-image: url("../images/imgb.jpg");
+ background-size: cover;
+}
+
+.second > .container > .box > .imgc{
+ background-image: url("../images/imgc.jpg");
+ background-size: cover;
+}
+
+.second > .container > .box > .imgd{
+ background-image: url("../images/imgd.jpg");
+ background-size: cover;
+}
+
+.second > .container > .box > .imge{
+ background-image: url("../images/imge.jpg");
+ background-size: cover;
+}

@@ -1,10 +1,11 @@
 header {
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
+  border-bottom: 3px solid red;
   padding: 30px;
 }
 nav {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,6 +31,9 @@ nav > .container > .card {
   padding: 10px 20px;
 }
 header > .contents {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
